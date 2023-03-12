@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="mail">Correo</string>
+    <string name="nit">Numero Documento</string>
+    <string name="university">Universidad</string>
+    <string name="save">Guardar</string>
+    <string name="random">XXXXXX: XXXXXXXXXXXXXXXXX</string>
+    <string name="cam">Tomar Foto De Perfil</string>
+</resources>

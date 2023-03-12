@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/yellow">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/vista"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/usuario"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btcam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cam"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="35dp"
+            android:textColor="@color/black"
+            android:text="¡Bienvenido!"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:gravity="center">
+        <TextView
+            android:gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nametwo"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="@string/random"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:gravity="center">
+        <TextView
+            android:gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nittwo"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="@string/random"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:gravity="center">
+        <TextView
+            android:gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/universitytwo"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="@string/random"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/sicau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir a Sicau"
+            android:backgroundTint="@color/black"
+            />
+    </LinearLayout>
+
+</LinearLayout>
